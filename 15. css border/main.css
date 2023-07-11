@@ -1,0 +1,23 @@
+.box {
+    width: 60px;
+    height: 60px;
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    background-color: black;
+    padding: 10px 11px 12px 13px;
+}
+.box2 {
+    background-color: violet;
+    border-style: solid;
+    border-color:aqua;
+
+}
+.box3 {
+    background-color: red;
+
+
+}

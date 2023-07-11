@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- phần đầu -->
+    <head>
+        <!-- tiêu đề tìm kiếm -->
+        <title>dũng học code</title>
+        <!-- meta hỗ trợ hiện thị tiếng việt -->
+        <meta charset="utf-8"> 
+        <!-- theem css external -->
+        <link rel="stylesheet" href="main.css">
+       <!-- <style> => internal. -->
+        <style>
+            html {
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 1rem;
+            }
+
+            .box {
+                width:100px;
+                height:100px;
+                background-color: brown;
+            }
+        </style>
+
+        <body>
+            <!-- <div> dùng bao quanh khối -->
+            <div>
+                  <!-- phần thân -->
+                  lữ anh dũng
+                  <!-- 1 h1 - h6 - heading - tiêu đề -->
+                      <h1> tiêu đề</h1>
+  
+                      <!-- 7 input type="text"> ô viết
+                                      "checkbox"> có dấu tích thêm nhiều để chọn nhiều
+                          input  name="gender" type="radio">chỉ chọn 1 cái -->
+                      <input type="text">
+  
+                  <!-- 8 button> đăng kí, đăng nhập, mua hàng -->
+                      <button>đăng ký</button>
+  
+                  <!-- 2  p - paragraph - viết đoạn văn -->
+                      <p>đoạn văn</p>
+  
+                  <!-- 3 img src="dòng link hình ảnh"
+                      alt="thông tin ảnh lỗi"
+                      width="chiều rộng"
+                      height="chiều cao"> -->
+                      <img src="https://scontent-itm1-1.xx.fbcdn.net/v/t39.30808-6/295516134_1087347165518056_2467766386093993882_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0debeb&_nc_ohc=gt68bGlkSOoAX9kr1Lt&_nc_ht=scontent-itm1-1.xx&oh=00_AfD9cL4rAvPju-p7DEFaeuP0DZ0p7oW9FFyvrHH5k5q7EQ&oe=64A4AFB2" alt="ảnh dũng" width="500" height="700"> <br>
+  
+                  <!-- 4 a href="link tới mxh">mxh<a> - anchor  -->
+                      <a href="https://www.facebook.com/luanhdung2001/">facebook</a>
+  
+            </div>
+               <div>
+                    <h2>1. ul,li dạng danh sách</h2>
+                <!-- 5  ul, li - unordered list, list item. -ul= dạng danh sách 
+                        -li= danh sách chứa nhiều phần tử
+                    li*4= thêm nhiều cột -->
+                    
+                    <ul>
+                        <li>lữ anh dung</li>
+                        <li>2001</li>
+                        <li>việt nam</li>
+                        <li>nhật bản</li>
+                    </ul>
+
+                 <h2>2.  table= danh sách bỏ vài bảng</h2>
+                    <!-- <thead> phần đầu, <th> cột
+                        <tbody> phần thân, <tr> dòng, <td> tên-->
+                    <table>
+                        <thead>
+                        <th>STT</th>
+                        <th>địa chỉ</th>
+                        <th>tên</th>
+                        
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Việt Nam</td>
+                                <td>Lữ anh Dũng</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+               </div>
+               <div>
+                    <h2>3. attribute thuộc tính của thể html nằm trong thể mở </h2>
+                    <!-- attribute => h1 onclick="thuộc tính">attribute<h1> thuộc tính của thể html nằm trong thể mở 
+                                         title="thuộc tính"
+                                        style="thuôck tính"    -->
+                    <p title="lữ anh dũng">LAD</p>
+
+                    <!-- inline  -->
+                    <h2 style="color:red;font-size: 20px;"> 4.các cách sử dụng css trong in html gồm có 3 cách</h2>
+
+                    <ol>
+                        <li>inline => nội tuyến: inline viết luôn vào trong dòng, 84. </li>
+                        <li>internal => nội bộ: sử dụng một cặp thể style trong chính html của chúng ta thì được gọi là internal. dòng 11 </li>
+                        <li>external => bên ngoài: sử dụng file bên ngoài rồi link vào html thì được gọi là external. dòng 9   </li>
+                    </ol>
+
+            </div>
+            <div>
+            <button class="btn">
+                <span class="icon">
+                    <svg viewBox="0 0 175 80" width="40" height="40">
+                        <rect width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                        <rect y="30" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                        <rect y="60" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                    </svg>
+                </span>
+                <span class="text">MENU</span>
+            </button>
+        </div>
+            <div>
+
+                <h2>5. khái niệm ID và Class</h2>
+             <P>id và class 2 khái niệm này nó điều nămf ở khái niệm lớn css slectors, css selectors được hiểu là nó là những cách để chúng ta có thể gọi được tới những cái phần tử ở trong html để chúng ta vó thể css</P>
+             <h1 id="name">CSS selectors</h1>
+             <h1 class="second-heading">CSS selectors</h1>
+             <h1 class="second-heading">CSS selectors</h1>
+             <h2 class="second-heading">ID & Class</h2>
+             <p>ID có nghĩa là định danh duy nhất chỉ suất hiện 1 lần trong 1 tài liệu, không được đặt ra 2 id giống hệt nhau. id dùng "#". <br>
+                Class có nghĩa là lớp có thể sử dụng 1 lớp cho nhiều phần tử khác nhau. class dùng "." </p>
+             
+            </div>
+
+            <div>
+                
+               <h1 id="heading-id" class="heading-class">6. độ ưu tiên trong CSS</h1> 
+               <h2>priority</h2>
+               <ol>
+                <li>giữa internal và external không có sử ưu tiên giữa 2 cách, chỉ được ưu tiên cái nào viết css mới hơn.</li>
+                <li>inline -1000 </li>
+                <li>#id - 100 </li>
+                <li>.class - 10</li>
+                <li>tag - 1</li>
+                <li>Equal specifocity? sự giống nhau khi gọi tới 1 element, gọi 1 eleter lặp lại 1 lần nữa cái nào mới hơn thì được ưu tiên</li>
+                <li>Universal slector and inherited? phổ cập chung * sẽ có thuộc tính css * cho tất cả những element nămf trong file được nhhungs trong file main.css khi minh css gì thì tất cả các thể điều được thừa hửa các thuộc tính mà chúng ta viết ở main.css * * {
+                    color:black;
+                  }<br>inherited thể con<br>!important ưu tiên trường hợp tất cả điều !important thì chúng ta xét điểm</li>
+                <h3>khi một phần tử được sử dụng bằng nhiều cách để gọi CSS thì cách nào nhiều điểm hơn sẽ được ưu tiên<br>
+                có thể gọi được qua cả .class và #id khi một đối tưởng có cả .class và #id, dòng 135 và dòng 16, trong trong trường hợp ông #id có 100 điểm ông .class có 10 điểm thì dòng đó cộng lại có 110 điểm thêm ông tag đượ 111 điểm suy ra cái nào nhiều điểm thì hiện màu theo dòng đó </h3>
+               </ol>
+
+            </div>
+
+            <div>
+            <h1>đặt biến trong css</h1>
+
+     :root {
+  --text-color:black;
+}
+h1 {
+  color: var(--text-color);
+}
+h2 {
+  color: var(--text-color);
+}
+</div>
+
+<div>
+    <h1>đơn vị trong css. css units</h1>
+    <h2>1. absolute units</h2>
+    <ul>
+        <li>px: định dạnh kích thước không thay đổi  </li>
+        <li>pt</li>
+        <li>cm</li>
+        <li>mm</li>
+        <li>inch</li>
+        <li>pc</li>
+    </ul>
+    <h1>2. relative units</h1>
+    <ul>
+<li>% :định nghĩa một đối tượng sở hữu mộy kích thước không cố định nó theay đổi kích thước  </li>
+<li>rem: phủ thuộc vào thể html. </li>
+<li>em: phủ thuộc vào thể gần nhất chứa nó </li>
+<li>vw: </li>
+<li>vh</li>
+<li>vmin</li>
+<li>vmax</li>
+<li>ex</li>
+    </ul>
+   
+
+</div>
+<div class="box"></div>
+
+
+        </body>
+    </head>
+</html>

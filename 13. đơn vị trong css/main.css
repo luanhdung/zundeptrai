@@ -1,0 +1,27 @@
+html {
+    font-size: 100%;
+} 
+.box {
+width: 100px;
+height: 100px;
+background-color: red;
+}
+h1 {
+font-size: 40px;
+}
+.dung {
+width: 50%;
+height: 100px;
+background-color:aqua;
+}
+h2 {
+font-size: 5rem;
+}
+h3 {
+font-size: 2em;
+}
+.lu {
+width: 50vw;
+height:50vh;
+background-color: blue;
+}

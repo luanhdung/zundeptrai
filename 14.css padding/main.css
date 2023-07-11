@@ -1,0 +1,23 @@
+.box {
+    width: 60px;
+    height: 60px;
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box1 {
+    background-color: black;
+}
+.box2 {
+    background-color: violet;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+/*viết tắt của padding*/
+.box3 {
+    background-color: red;
+    padding: 10px 12px 13px 14px;
+}
